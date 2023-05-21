@@ -1,0 +1,49 @@
+.Excuser {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #2b313d;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.heading {
+  margin-bottom: 1rem;
+}
+
+button {
+  margin: 0.5rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0.25rem;
+  background-color: white;
+  color: #2b313d;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+button:hover {
+  transform: scale(1.05);
+  background-color: #1f2129;
+  color: white;
+}
+
+.btn-party {
+  background-color: #9c4668;
+}
+
+.btn-office {
+  background-color: #547980;
+}
+
+.btn-family {
+  background-color: #e8d5b8;
+}
+
+.result {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  text-align: center;
+}

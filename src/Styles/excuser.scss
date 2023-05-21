@@ -1,0 +1,141 @@
+// // Variables
+// $bg-color: #2b313d;
+// $btn-colors: (
+//   party: #f44336,
+//   office: #2196f3,
+//   family: #4caf50,
+// );
+
+// // Media queries
+// $breakpoint-sm: 576px;
+// $breakpoint-md: 768px;
+// $breakpoint-lg: 992px;
+// $breakpoint-xl: 1200px;
+
+// .Excuser {
+//   background-color: $bg-color;
+//   padding: 50px;
+//   height: 100vh;
+
+//   // Heading
+//   .heading {
+//     color: white;
+//     font-size: 32px;
+//     margin-bottom: 20px;
+//     text-align: center;
+//   }
+
+//   // Buttons
+//   .buttons {
+//     display: flex;
+//     flex-wrap: wrap;
+//     justify-content: center;
+//     margin-bottom: 20px;
+
+//     button {
+//       background-color: white;
+//       border: none;
+//       padding: 10px 20px;
+//       margin: 5px;
+//       border-radius: 4px;
+//       cursor: pointer;
+//       font-size: 18px;
+//       color: $bg-color;
+//       transition: background-color 0.2s ease-in-out;
+
+//       &:hover {
+//         background-color: darken(white, 5%);
+//       }
+
+//       @each $type, $color in $btn-colors {
+//         &.btn-#{$type} {
+//           color: $color;
+//         }
+//       }
+
+//       @media (max-width: $breakpoint-sm) {
+//         font-size: 16px;
+//       }
+//     }
+//   }
+
+//   // Answer
+//   .answer {
+//     text-align: center;
+
+//     .result {
+//       color: white;
+//       font-size: 24px;
+//       margin-top: 20px;
+//     }
+//   }
+
+//   // Media queries
+//   @media (min-width: $breakpoint-sm) {
+//     .heading {
+//       font-size: 48px;
+//     }
+//   }
+
+//   @media (min-width: $breakpoint-md) {
+//     .buttons {
+//       margin: 0 auto;
+//       max-width: 600px;
+//     }
+
+//     .heading {
+//       font-size: 64px;
+//     }
+//   }
+
+//   @media (min-width: $breakpoint-lg) {
+//     .buttons {
+//       max-width: 800px;
+//     }
+//   }
+
+//   @media (min-width: $breakpoint-xl) {
+//     .buttons {
+//       max-width: 1000px;
+//     }
+//   }
+// }
+//////////////////////////////////
+/// 
+/// 
+.Excuser {
+  background-color: #2b313d;
+}
+
+.heading {
+  color: white;
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+.btn-party,
+.btn-office,
+.btn-family {
+  background-color: lightgray;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.btn-party:hover,
+.btn-office:hover,
+.btn-family:hover {
+  background-color: white;
+  color: black;
+}
+
+.answer {
+  margin-top: 20px;
+}
+
+.result {
+  color: white;
+}
